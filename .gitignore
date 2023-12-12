@@ -1,0 +1,14 @@
+# IDE settings
+.idea/
+.vscode/
+
+# Bytecode
+*.pyc
+
+# OS folder settings
+.DS_Store
+desktop.ini
+thumbs.db
+
+# Virtual environment
+venv/
