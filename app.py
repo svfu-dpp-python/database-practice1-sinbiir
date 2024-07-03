@@ -4,7 +4,7 @@ from mysql.connector import connect
 
 def get_data(table):
     """Получение данных из СУБД MySQL"""
-    conn = connect(host="localhost", user='root', password='1234', database='world')
+    conn = connect(host="localhost", user='root', password='sanasuol', database='world')
     cursor = conn.cursor()
     query = f"SELECT * FROM `{table}` LIMIT 25;"  # читаем 25 строк из таблицы
     cursor.execute(query)
